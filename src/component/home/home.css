@@ -19,11 +19,56 @@ padding: 10px;
 }
 .buttonNav{
     border: 2px solid gold;
-    padding: 20px;
+    padding: 10px;
     color: gold;
+
     transition: 0.5s;
 }
 .buttonNav:hover{
     border: 4px dotted rgb(125, 107, 1);
     color: rgb(125, 107, 1);
+}
+main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+.HRnav{
+    flex: 1;
+    background-color: rgb(37, 37, 37);
+}
+.main{
+    flex: 3;
+   
+
+}
+.winner{
+    margin-top: 1cm;
+    display: block;
+    box-shadow: 0px 0px 50px -10px gold;
+    animation: glow 2s ease-in-out infinite alternate ;
+}
+.loser{
+    display: block;
+    margin-top: 1cm;
+
+    box-shadow: 0px 0px 50px -10px rgb(255, 0, 0);
+animation: glow 2s ease-in-out infinite alternate ;
+}
+@keyframes glow {
+    from{
+padding-left: 0%;
+    }to{
+padding-left: 55%;
+    }
+}
+.gamesbtn{
+    width: 40%;
+    height: 4cm ;
+    padding: 1cm;
+    margin: 1cm;
+    background-color: transparent;
+    box-shadow: 0px 0px 40px -10px rgb(241, 218, 90);
+    border-radius: 1cm;
+    background-size: cover;
 }
