@@ -1,0 +1,34 @@
+.gamepage{
+    width: 100%;
+    height: 760px;
+    background-color: rgb(54, 47, 11);
+}
+.gamename{
+text-align: center;
+color: gold;
+animation: play 2s ease-in-out infinite alternate ;
+}
+@keyframes play {
+    from{
+        font-size: 5mm;
+        box-shadow: 0px 0px 30px rgb(225, 255, 0);
+    }to{
+        box-shadow: 0px 0px 30px rgb(0, 145, 255);
+font-size: 1cm;
+    }
+}
+.gamebtn{
+    width: 40%;
+    height: 6cm ;
+    padding: 1cm;
+    margin: 1cm;
+    background-color: transparent;
+    box-shadow: 0px 0px 40px -10px rgb(241, 218, 90);
+    border-radius: 1cm;
+    background-size: cover;
+    transition: all 1s;
+}
+.gamebtn:hover{
+    box-shadow: 0px 0px 60px  rgb(255, 0, 0);
+
+}

@@ -4,7 +4,7 @@ import contextUse from "../../context/context";
 import './home.css'
 const Home = (props) => {
 const contextuse = useContext(contextUse)
-
+console.log(contextuse.gamePage)
 return ( <>
     <section className="home">
 <nav  >
@@ -28,14 +28,14 @@ return ( <>
     </div>
     <div className="main" >
 <div className="p-5 row  ">
-<button   className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center  fs-1 text-warning" to={''}  >ScoBeTT</Link></button>
-<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={''}  >BasketBeTT</Link></button>
-<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={''}  >BoxBeTT</Link></button>
-<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={''}  >RidingBeTT</Link></button>
-<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={''}  >NBA </Link></button>
-<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={''}  >F1 BeTT</Link></button>
-<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={''}  >FIFA BeTT</Link></button>
-<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={''}  >Billiard BeTT</Link></button>
+<button   className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center  fs-1 text-warning" to={'/GamesPage?id=1'}  >ScoBeTT</Link></button>
+<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={'/GamesPage?id=2'}  >BasketBeTT</Link></button>
+<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={'/GamesPage?id=3'}  >BoxBeTT</Link></button>
+<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={'/GamesPage?id=4'}  >RidingBeTT</Link></button>
+<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={'/GamesPage?id=5'}  >NBA </Link></button>
+<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={'/GamesPage?id=6'}  >F1 BeTT</Link></button>
+<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={'/GamesPage?id=7'}  >FIFA BeTT</Link></button>
+<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={'/GamesPage?id=8'}  >Billiard BeTT</Link></button>
 </div>
 
     </div>
