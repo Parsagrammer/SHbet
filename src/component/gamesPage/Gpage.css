@@ -10,7 +10,7 @@ animation: play 2s ease-in-out infinite alternate ;
 }
 @keyframes play {
     from{
-        font-size: 5mm;
+        font-size: 7mm;
         box-shadow: 0px 0px 30px rgb(225, 255, 0);
     }to{
         box-shadow: 0px 0px 30px rgb(0, 145, 255);
@@ -32,6 +32,6 @@ font-size: 1cm;
     transition: all 1s;
 }
 .gamebtn:hover{
-    box-shadow: 0px 0px 60px  rgb(255, 0, 0);
-
+    box-shadow: 0px 0px 120px  rgb(255, 0, 0);
+border: none;
 }
