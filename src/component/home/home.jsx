@@ -28,14 +28,14 @@ return ( <>
     </div>
     <div className="main" >
 <div className="p-5 row  ">
-<button   className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center  fs-1 text-warning" to={'/GamesPage?id=1'}  >ScoBeTT</Link></button>
-<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={'/GamesPage?id=2'}  >BasketBeTT</Link></button>
-<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={'/GamesPage?id=3'}  >BoxBeTT</Link></button>
-<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={'/GamesPage?id=4'}  >RidingBeTT</Link></button>
-<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={'/GamesPage?id=5'}  >NBA </Link></button>
-<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={'/GamesPage?id=6'}  >F1 BeTT</Link></button>
-<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={'/GamesPage?id=7'}  >FIFA BeTT</Link></button>
-<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={'/GamesPage?id=8'}  >Billiard BeTT</Link></button>
+  <Link   className="gamesbtn"  to={'/GamesPage?id=1'} > <button   className="w-100 h-100 bg-transparent border-0 text-center  fs-1 text-warning">    ScoBeTT</button></Link>
+ <Link   className="gamesbtn"  to={'/GamesPage?id=2'}  > <button  className="w-100 h-100 bg-transparent border-0  text-center fs-1 text-warning">  BasketBeTT</button></Link>
+  <Link  className="gamesbtn"  to={'/GamesPage?id=3'}  > <button   className="w-100 h-100 bg-transparent border-0  text-center fs-1 text-warning"> BoxBeTT</button></Link>
+ <Link   className="gamesbtn"  to={'/GamesPage?id=4'}  > <button   className="w-100 h-100 bg-transparent border-0  text-center fs-1 text-warning"> RidingBeTT</button></Link>
+ <Link   className="gamesbtn"  to={'/GamesPage?id=5'}  > <button  className="w-100 h-100 bg-transparent border-0  text-center fs-1 text-warning">  NBA </button></Link>
+ <Link   className="gamesbtn" to={'/GamesPage?id=6'}  > <button    className="w-100 h-100 bg-transparent border-0  text-center fs-1 text-warning"> F1 BeTT</button></Link>
+   <Link  className="gamesbtn"  to={'/GamesPage?id=7'}  > <button  className="w-100 h-100 bg-transparent border-0  text-center fs-1 text-warning"> FIFA BeTT</button></Link>
+ <Link   className="gamesbtn"  to={'/GamesPage?id=8'}  > <button   className="w-100 h-100 bg-transparent border-0  text-center fs-1 text-warning"> Billiard BeTT</button></Link>
 </div>
 
     </div>
