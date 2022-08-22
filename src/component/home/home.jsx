@@ -32,6 +32,10 @@ return ( <>
 <button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={''}  >BasketBeTT</Link></button>
 <button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={''}  >BoxBeTT</Link></button>
 <button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={''}  >RidingBeTT</Link></button>
+<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={''}  >NBA </Link></button>
+<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={''}  >F1 BeTT</Link></button>
+<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={''}  >FIFA BeTT</Link></button>
+<button  className="gamesbtn" ><Link className="w-100 h-100 text-decoration-none text-center fs-1 text-warning" to={''}  >Billiard BeTT</Link></button>
 </div>
 
     </div>
