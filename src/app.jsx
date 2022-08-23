@@ -3,6 +3,7 @@ import {BrowserRouter, Route, Router, Routes} from 'react-router-dom'
 import Home from "./component/home/home";
 import contextUse from "./context/context";
 import GamePage from "./component/gamesPage/Gpage";
+import BetPage from "./component/betpage/betpage";
 const App = () => {
     let [gamespage , setgamespage]=useState([
 {id:1 , page:'Soccer tournaments' , games:[
@@ -58,6 +59,7 @@ const App = () => {
 
 <Routes>
    <Route path="/GamesPage"  element={<GamePage/>}  />
+   <Route path="/betpage"  element={<BetPage/>} />
    <Route path="/"  element={<Home/>} />
 
 </Routes>
