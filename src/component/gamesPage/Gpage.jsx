@@ -6,7 +6,8 @@ import './Gpage.css'
 const GamePage = (props) => {
     const contextuse = useContext(contextUse)
     let infoGames =contextuse.gamePage[queryString.parse(window.location.search).id-1]
-    console.log(infoGames)
+
+    console.log(queryString.parse(window.location.search).id-1)
     return ( <>
     <section className="gamepage" >
 <Link className="p-3 m-3 " to={'/'} ><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi text-danger rounded-circle border border-danger  m-3 bi-arrow-bar-left" viewBox="0 0 16 16">
@@ -17,7 +18,7 @@ const GamePage = (props) => {
 <div className="row p-4" >
 {
  infoGames.games.map((e,i)=>{
-        return <Link key={i} className=" w-75 text-decoration-none  text-center m-3 fs-1" to={`id=${i}`}  >
+        return <Link key={i} className=" w-75 text-decoration-none  text-center m-3 fs-1" to={`/betpage?game=${i}&sportId=${queryString.parse(window.location.search).id-1}`}  >
             <button    className="gamebtn" >
             <div  >
             
