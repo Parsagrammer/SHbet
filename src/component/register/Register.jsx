@@ -53,7 +53,9 @@ const Register = () => {
             <input type="password" id="password" className="rounded border-top-0 border-start-0  border-buttom-1 bg-secondary   " style={{outline:"none"}} {...formik.getFieldProps('password')}/>
             {formik.touched.password && formik.errors.password?( <h6 className="text-danger">{formik.errors.password}</h6>) : null}
      
-            <button className="btn btn-danger w-50 p-2 text-dark m-1 mt-4" type="submit">Register</button>
+            <button className="btn btn-danger w-50 p-2 text-dark m-1 mt-4" type="submit" onClick={(e)=>{
+                e.preventDefault()
+            }}>Register</button>
         </form>
         </div>
      );
