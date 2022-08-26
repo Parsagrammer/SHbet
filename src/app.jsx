@@ -4,7 +4,7 @@ import Home from "./component/home/home";
 import contextUse from "./context/context";
 import GamePage from "./component/gamesPage/Gpage";
 import BetPage from "./component/betpage/betpage";
-import Register from "./register/Register";
+import Register from "../src/component/register/Register"
 const App = () => {
     let [gamespage , setgamespage]=useState([
 {id:1 , page:'Soccer tournaments' , games:[
