@@ -27,7 +27,7 @@ return ( <>
     </div>      
     </div>
     <div className="main " >
-<div className="p-5 row  ">
+<div className="p-5 row  " style={{backgroundColor:'black'}}  >
   <Link   className="gamesbtn"  to={'/GamesPage?id=1'} > <button   className="w-100 h-100 bg-transparent border-0 text-center  fs-1 text-warning">    ScoBeTT</button></Link>
  <Link   className="gamesbtn"  to={'/GamesPage?id=2'}  > <button  className="w-100 h-100 bg-transparent border-0  text-center fs-1 text-warning">  BasketBeTT</button></Link>
   <Link  className="gamesbtn"  to={'/GamesPage?id=3'}  > <button   className="w-100 h-100 bg-transparent border-0  text-center fs-1 text-warning"> BoxBeTT</button></Link>
