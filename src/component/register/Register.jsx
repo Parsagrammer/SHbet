@@ -30,9 +30,9 @@ const Register = () => {
     return ( 
       
         
-        <div className="p-4 bg-warning" style={{height:"auto", background: "linear-gradient(30deg , black 10% , gold 70%)" }}>
+        <div className="p-4 bg-warning  " style={{height:"757px", background: "linear-gradient(30deg , black  , gold , black  , gold  " }}>
            
-        <form onsubmit={formik.handleSubmit} className="d-flex flex-column  mx-auto p-5  rounded mt-4  " style={{width:"400px"  , backgroundColor: "rgb(15, 15, 15)"}}>
+        <form onsubmit={formik.handleSubmit} className="d-flex flex-column  mx-auto p-5  rounded mt-4 h-75 " style={{width:"600px"  , backgroundColor: "rgb(15, 15, 15)"}}>
             <div className="d-flex " >
                   <h1 className="text-danger" ><em>SH</em></h1>
                  <h1 className="text-warning" ><b>Bet</b></h1>
