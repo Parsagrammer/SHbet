@@ -14,7 +14,7 @@ return ( <>
 
 </div>
 <div className="d-flex flex-row-reverse justify-content-around w-50" >
-<button className="btn buttonNav border-0" ><Link className="w-100 h-100 text-decoration-none text-warning " to={'/registergit push -u oriigin main'} >login</Link></button>
+<button className="btn buttonNav border-0" ><Link className="w-100 h-100 text-decoration-none text-warning " to={'/register'} >login</Link></button>
 <button className="btn buttonNav  border-0" ><Link className="w-100 h-100 text-decoration-none text-warning " to={'/live-game'} >Live Games</Link></button>
 <button className="btn buttonNav  border-0" ><Link className="w-100 h-100 text-decoration-none text-warning " to={'/new Games'} >New Games</Link></button>
 <button className="btn buttonNav  border-0" ><Link className="w-100 h-100 text-decoration-none text-warning " to={'/trended'} >Trended</Link></button>
