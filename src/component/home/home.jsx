@@ -14,10 +14,10 @@ return ( <>
 
 </div>
 <div className="d-flex flex-row-reverse justify-content-around w-50" >
-<button className="btn buttonNav" ><Link className="w-100 h-100 text-decoration-none text-warning " to={'/login'} >login</Link></button>
-<button className="btn buttonNav" ><Link className="w-100 h-100 text-decoration-none text-warning " to={'/live-game'} >Live Games</Link></button>
-<button className="btn buttonNav" ><Link className="w-100 h-100 text-decoration-none text-warning " to={'/new Games'} >New Games</Link></button>
-<button className="btn buttonNav" ><Link className="w-100 h-100 text-decoration-none text-warning " to={'/trended'} >Trended</Link></button>
+<button className="btn buttonNav border-0" ><Link className="w-100 h-100 text-decoration-none text-warning " to={'/registergit push -u oriigin main'} >login</Link></button>
+<button className="btn buttonNav  border-0" ><Link className="w-100 h-100 text-decoration-none text-warning " to={'/live-game'} >Live Games</Link></button>
+<button className="btn buttonNav  border-0" ><Link className="w-100 h-100 text-decoration-none text-warning " to={'/new Games'} >New Games</Link></button>
+<button className="btn buttonNav  border-0" ><Link className="w-100 h-100 text-decoration-none text-warning " to={'/trended'} >Trended</Link></button>
 </div>
 </nav>
 <main  >
@@ -26,7 +26,7 @@ return ( <>
   <div className="d-flex flex-column" >
     </div>      
     </div>
-    <div className="main" >
+    <div className="main " >
 <div className="p-5 row  ">
   <Link   className="gamesbtn"  to={'/GamesPage?id=1'} > <button   className="w-100 h-100 bg-transparent border-0 text-center  fs-1 text-warning">    ScoBeTT</button></Link>
  <Link   className="gamesbtn"  to={'/GamesPage?id=2'}  > <button  className="w-100 h-100 bg-transparent border-0  text-center fs-1 text-warning">  BasketBeTT</button></Link>

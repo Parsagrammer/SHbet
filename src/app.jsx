@@ -4,6 +4,7 @@ import Home from "./component/home/home";
 import contextUse from "./context/context";
 import GamePage from "./component/gamesPage/Gpage";
 import BetPage from "./component/betpage/betpage";
+import Register from "./register/Register";
 const App = () => {
     let [gamespage , setgamespage]=useState([
 {id:1 , page:'Soccer tournaments' , games:[
@@ -60,6 +61,7 @@ const App = () => {
 <Routes>
    <Route path="/GamesPage"  element={<GamePage/>}  />
    <Route path="/betpage"  element={<BetPage/>} />
+   <Route path="/register"  element={<Register/>} />
    <Route path="/"  element={<Home/>} />
 
 </Routes>
