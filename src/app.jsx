@@ -5,6 +5,7 @@ import contextUse from "./context/context";
 import GamePage from "./component/gamesPage/Gpage";
 import BetPage from "./component/betpage/betpage";
 import Register from "../src/component/register/Register"
+import Sec from "./component/seclogin/sec";
 const App = () => {
     let [gamespage , setgamespage]=useState([
 {id:1 , page:'Soccer tournaments' , games:[
@@ -62,6 +63,7 @@ const App = () => {
    <Route path="/GamesPage"  element={<GamePage/>}  />
    <Route path="/betpage"  element={<BetPage/>} />
    <Route path="/register"  element={<Register/>} />
+   <Route  path="/seclogin" element={<Sec/>} /> 
    <Route path="/"  element={<Home/>} />
 
 </Routes>

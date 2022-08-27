@@ -1,6 +1,5 @@
 import { useContext, useState } from "react";
-import { Link } from "react-router-dom";
-import Dropdown from 'react-bootstrap/Dropdown';
+
 import contextUse from "../../context/context";
 import queryString from  "query-string"
 import './betpage.css'

@@ -1,8 +1,10 @@
-import React from "react"
+import React, { useState }  from "react"
 import {useFormik} from "formik"
 import * as Yup from "yup"
 import {Link} from "react-router-dom"
 const Register = () => {
+    let [sec , setsec]=useState(0)
+    let [scu , setscu] =useState()
     const formik =useFormik({
         initialValues:{
             firstname:'',
@@ -57,9 +59,19 @@ const Register = () => {
                 e.preventDefault()
             }}>Register</button>
         </form>
+
+<button className="bg-transparent border-0 p-3 " onClick={Prt} >
+{ scu }
+</button>
+
         </div>
      );
-
+function Prt(){
+    setsec(sec +1)
+    if(sec===10){
+        setscu(<Link to={'/seclogin'} className=' p-4 border-0 ' style={{cursor:'none'}}  ></Link>)
+    }
+}
 }
  
 export default Register;
